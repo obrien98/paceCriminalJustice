@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details | Pace Criminal Justice Society</title>
+    <meta name="description" content="Event details for the Pace University Criminal Justice Society.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/scroll_animations.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html" aria-label="Pace Criminal Justice Society home">
+          <img
+            src="images/logo.jpeg"
+            alt="Pace Criminal Justice Society logo"
+          />
+        </a>
+      </div>
+
+      <div class="nav-right" id="navRight">
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a
+            href="https://settersyncplv.pace.edu/organization/criminal-justice-society"
+            class="nav-cta"
+            target="_blank"
+            rel="noreferrer"
+            >SetterSync</a
+          >
+        </nav>
+        <div class="nav-socials">
+          <a
+            href="https://www.instagram.com/paceplv.cjs"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <button
+        class="hamburger"
+        id="hamburger"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+    <main>
+        <section class="purpose">
+            <div class="container event-detail-shell" id="eventDetail">
+                <h1>Event not found</h1>
+                <p>The requested event could not be loaded. Return to the homepage to choose another event.</p>
+                <a class="cta-primary" href="index.html#events">Back to Events</a>
+            </div>
+        </section>
+
+        <section class="events-section">
+            <div class="container">
+                <div class="events-header">
+                    <h2 class="section-title">Upcoming Events</h2>
+                </div>
+                <div class="events-grid" id="relatedEventsGrid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p>&copy; <span id="year"></span> Criminal Justice Society. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/scroll_animations.js"></script>
+    <script src="scripts/site.js"></script>
+</body>
+</html>
