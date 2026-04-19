@@ -13,7 +13,7 @@ const siteData = {
             role: "Vice President",
             email: "tr69175p@pace.edu",
             bio: "Supports the overall direction of the Criminal Justice Society by assisting in event coordination, member engagement, and strategic planning. As Vice President, she helps ensure smooth operations and fosters collaboration among members and campus partners.",
-            image: "images/default.jpeg"
+            image: "images/toni.jpeg"
         },
         {
             name: "Emma Seijo",
